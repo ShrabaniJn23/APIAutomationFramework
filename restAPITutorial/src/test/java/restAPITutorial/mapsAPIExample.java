@@ -28,6 +28,8 @@ public class mapsAPIExample {
 	.body(body)
 	.when().post("/maps/api/place/add/json")
 	.then().log().all().assertThat().statusCode(200);
+	
+	System.out.println("chcek");
 	}
 
 }
